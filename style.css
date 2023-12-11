@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 50%, rgba(47, 73, 207, 1) 70%, rgba(252, 70, 107, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo {
+    width: 20%;
+    /* Desktop */
+    max-width: 90%;
+    /* Mobile */
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 4em;
+    /* Adjust size as needed */
+}
+
+.email {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.5em;
+    /* Adjust size as needed */
+}
